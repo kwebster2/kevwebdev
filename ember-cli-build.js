@@ -19,6 +19,7 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
+
   app.import('vendor/assets/css/bootstrap.min.css');
   app.import('vendor/assets/css/animate.css');
   app.import('vendor/assets/css/font-awesome.min.css');
@@ -27,6 +28,12 @@ module.exports = function(defaults) {
   app.import('vendor/assets/css/owl.theme.css');
   app.import('vendor/assets/css/simpletextrotator.css');
   app.import('vendor/assets/css/style.css');
+
+  app.import('vendor/assets/fonts/fontawesome-webfont.ttf');
+  app.import('vendor/assets/fonts/fontawesome-webfont.woff');
+  app.import('vendor/assets/fonts/fontawesome-webfont.svg');
+  app.import('vendor/assets/fonts/fontawesome-webfont.eot');
+
   app.import('vendor/assets/js/jquery-1.11.0.min.js');
   app.import('vendor/assets/js/jquery.backstretch.min.js');
   app.import('vendor/assets/js/jquery.countTo.js');
