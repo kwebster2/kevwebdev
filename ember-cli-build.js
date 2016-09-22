@@ -31,6 +31,7 @@ module.exports = function(defaults) {
 
   app.import('vendor/assets/fonts/fontawesome-webfont.ttf');
   app.import('vendor/assets/fonts/fontawesome-webfont.woff');
+  app.import('vendor/assets/fonts/fontawesome-webfont.woff2');
   app.import('vendor/assets/fonts/fontawesome-webfont.svg');
   app.import('vendor/assets/fonts/fontawesome-webfont.eot');
 
